@@ -1,0 +1,493 @@
+/*CSS SLIDER BOOTSTRAP CODE*/
+
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+/*end of css slider bootstrap code*/
+
+html,body{
+	height: 100%;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+}
+
+#main-logo{
+    display: inline;
+}
+
+    @keyframes phase {
+    0% {
+      
+      opacity: 0;
+      
+    }
+    100% {
+      
+      
+      opacity: 1;
+    }
+  }
+  .slider-hr{
+  	width: 60%;
+  	background-color: rgba(0, 128, 128, 0.5);
+  	height: 4px;
+  	border: none;
+  	border-radius: 50%;
+  }
+  .section-hr{
+    width: 30%;
+    background-color: rgba(0, 128, 128, 0.5);
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+  }
+#section-a{
+    margin-top: 30px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+.section-text{
+    font-weight: 400;
+}
+
+/*Section A Button*/
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+.img-button{
+    animation-name: spin; 
+    animation-duration: 50s;
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear;
+    margin-left: 60px;
+
+}
+.section-a-btn{
+    height: 120px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,215,0,0.8);
+    color: white;
+    background-color: rgba(0, 128, 128, 0.5);
+    position: relative;
+    right: -95px;
+    bottom: 155px;
+    }
+.section-a-btn:hover{
+    background-color: white;
+    color: rgb(0, 128, 128);
+    transition-duration: 0.5s;
+}
+/*End Section A Button*/
+
+.carousel-caption{
+	animation-name: phase;
+	animation-duration: 5s;
+}
+.other-slider{
+	margin-bottom: 100px;
+}
+.landing-button{
+	border-radius: 20px;
+	background-color: teal;
+	border: none;
+	color: white;
+	font-size: 15px;
+	font-weight: 500;
+	height: 30px;
+	width: 120px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.landing-button:hover{
+	background-color: white;
+	color: teal;
+	transition-duration: 0.5s;
+}
+
+.carousel-indicators .active{
+	background-color: teal;
+}
+
+
+
+
+
+    .navbar-logo{
+        margin-top: -25px;
+    }
+    .navbar-fixed-top{
+        background-color: transparent;
+        border-bottom: none;
+        height: 118px;
+        transition: background-color 500ms linear;
+
+    }
+    .navbar-fixed-top.scrolled {
+        background-color: teal !important;
+        transition: background-color 500ms linear;
+        border-bottom: 1px solid white;
+    }
+    .navbar-toggle{
+        height: 57px;
+    }
+    .navbar-default .navbar-nav>li>a{
+        color: white;
+    }
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+        color:white;
+        text-decoration: underline;
+    }
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+        background-color: teal;
+        color: white;
+    }
+    .dropdown-menu>li>a{
+        background-color: teal;
+        color:white;
+    }
+
+    .top-banner{
+        max-height: 25px;
+        background-color: rgba(0, 128, 128, 0.5);
+        
+    }
+
+    .sm-top-banner{
+        float: right;
+        color: white;
+        padding: 5px 0 5px 30px;
+    }
+    .contact-top-banner{
+        color: white;
+        padding: 5px 10px 5px 5px;
+    }
+    .top-banner-contact-style{
+        font-weight: 500;
+        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding-left: 8px;
+
+    }
+    .sm-top-fb:hover{
+        color: #4b67a1;
+
+    }
+    .sm-top-tw:hover{
+        color: #00b6f1;
+    }
+    .sm-top-gp:hover{
+        color: #df4a32;
+    }
+    .sm-top-li:hover{
+        color: #007bb6;
+    }
+    .navbar-brand>img{
+        padding-top: 20px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        padding-top: 20px;
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        height: 91px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/*Footer CSS*/
+#footer{
+    border-top: 7px solid teal;
+    max-height: 800px;
+}
+
+#top-footer{
+    background-color: #777;
+}
+
+
+.icon-bottom{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 8px;
+    color: white;
+    background-color: teal;
+}
+.icon-bottom:hover{
+    background-color: white;
+    color: teal;
+    transition-duration: 0.3s;
+}
+.footer-content{
+    color: #ddd;
+}
+.footer-content-weight{
+    font-weight: 600;
+}
+.align{
+    margin-left: 45px;
+}
+.style{
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+.phone-icon{
+    margin-top: -6px;
+}
+.white{
+    color: white;
+}
+.footer-button{
+    border-radius: 25px;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+}
+.footer-button:hover{
+    background-color: white;
+    color: teal;
+    transition-duration: 0.3s;
+}
+
+.sm-footer{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 50px;
+    color: #ddd;
+}
+#sm-footer-fb:hover{
+    background-color: #4b67a1;
+    color: white;
+    border: 1px solid #4b67a1;
+}
+#sm-footer-tw:hover{
+    background-color: #00b6f1;
+    color: white;
+    border: 1px solid #00b6f1;
+}
+#sm-footer-gp:hover{
+    background-color:  #df4a32;
+    color: white;
+    border: 1px solid #df4a32;
+}
+#sm-footer-li:hover{
+    background-color:  #007bb6;
+    color: white;
+    border: 1px solid #007bb6;
+}
+
+.bottom-footer{
+    background-color: #4A4040;
+    max-height: 100px;
+    padding-top: 15px;
+}
+.bottom-footer-style{
+    padding: 0 10px 10px 10px;
+}
+.copyright{
+    margin-bottom: -5px;
+}
+.footer-logo{
+    float: right;
+    margin-top: -20px;
+
+}
+/*End of Footer CSS*/
+
+/*start of Section-b CSS*/
+.b-hr{
+    
+    background-color: rgba(0, 128, 128, 0.5);
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+
+}
+.end-hr{
+    width: 33%;
+    background-color: rgba(0, 128, 128, 0.5);
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+
+}
+.bottom-hr{
+    width: 33%;
+    background-color: rgba(0, 128, 128, 0.5);
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+
+}
+
+.content-section-a{
+    padding: 50px 0;
+    background-color: rgba(255,215,0,0.3);
+}
+.content-section-b{
+    padding: 50px 0;
+}
+.img-content{
+    margin-top: 30px;
+}
+
+/*End of Section-b CSS*/
+
+/*Start of CSS for Associated friends and partners*/
+/* Make it a marquee */
+#marquee-container{
+    padding-top: 50px;
+}
+
+.marquee {
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap; 
+    animation: marquee 50s linear infinite;
+
+    
+
+}
+
+.marquee img {
+    -webkit-transition: all 0.1s ease;
+}
+
+.marquee:hover{
+    animation-play-state: paused;
+}
+
+.marquee img:hover {
+    
+    -webkit-transform: scale(1.0);
+    
+}
+
+/* Make it move */
+@keyframes marquee {
+    0%   { text-indent: 0em }
+    100% { text-indent: -150em }
+}
+
+.img-slider{
+    padding: 0 20px;
+    
+}
+
+
+
+
+.friends{
+    background-color: teal;
+}
+
+.grayscale{
+    filter: grayscale(100%);
+}
+/*End of CSS for associated friends and partners*/
+
+/*Section c */
+ .section-c-btn{
+    
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+    background-color: transparent;
+    color: teal;
+    border-right: none;
+    border-left: none;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+.section-c-btn:hover{
+    
+    border-top: 2px solid rgba(0, 128, 128, 0.2);
+    border-bottom: 2px solid rgba(0, 128, 128, 0.2);
+    height: 45px;
+
+}
+
+
+
+#show-three{
+    width: 100%;
+    
+
+    text-align: center;
+}
+
+#show-one{
+    width: 100%;
+    
+    
+    text-align: center;
+}
+#show-two{
+    width: 100%;
+    
+
+    
+    text-align: center;
+}
+.img-c{
+    margin-left: 50px;
+}
+
+#section-c{
+    margin-bottom: 100px;
+    
+    background-color: rgba(255,215,0,0.3);
+ 
+}
+/*End of section c*/
