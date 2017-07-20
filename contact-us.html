@@ -117,25 +117,28 @@
 }
 
 /*Start of CSS for FORM*/
-.red{
-	color: red;
+
+.form-red{
+    color: red;
 }
+
 fieldset{
     text-align: center;
-    height: 200px;
 }
 input{
     text-align: center;
 }
-select{
-    text-align: center;
-}
+
 #message{
-    width: 300px;
+    width: 100%;
     height: 150px;
 }
+#message-two{
+    width: 100%;
+    height: 255px;
+}
 #send{
-    width: 300px;
+    width: 100%;
     color: white;
     border-radius: 2px;
     background-color: teal;
@@ -149,14 +152,23 @@ select{
 .form-text{
     font-size: 15px;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 5px;
 }
 .form-input{
-    width: 200px;
+    width: 100%;
 }
-#form{
+
+
+
+.appointment-form{
     border: 1px solid teal;
-    height: 350px;
+    height: 620px;
 }
+select{
+    width: 100%;
+}
+
+
 
 /*End of CSS for FORM*/
 
@@ -267,55 +279,67 @@ select{
 
 <!--Start of Form-->
      <div class="row" id="form">
-        <h2 align="center">Book a Session</h2><hr class="end-hr">
-        <form>
-            <div class="col-xs-12 col-md-4">
-
+         <div class="col-xs-12 col-md-6 appointment-form">
+             <h2 align="center">Book an Appointment</h2><hr class="end-hr">
             <fieldset>
             
-                <label class="form-text" for="fullname">Full Name<span class="red">*</span></label><br>
-                <input class="form-input" type="text" id="fname" name="fullname" required=""/><br><br>
+                <label class="form-text" for="fullname">Full Name <span class="form-red">*</span></label>
+                <input class="form-input" type="text" id="fname" name="fullname" required=""/><br>
 
-                <label class="form-text" for="telephone">Telephone<span class="red">*</span></label><br>
-                <input class="form-input" id="telephone" name="telephone" type="text" required="" /><br><br>
+                <label class="form-text" for="telephone">Telephone <span class="form-red">*</span></label>
+                <input class="form-input" id="telephone" name="telephone" type="text" required="" /><br>
 
-                <label class="form-text" for="email">Email<span class="red">*</span></label><br>
-                <input class="form-input" id="email" name="email"  placeholder="example@email.com" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Must be in format of example@email.com" required="" />         
-            </fieldset>
-            </div>
-            <div class="col-xs-12 col-md-4">
+                <label class="form-text" for="email">Email <span class="form-red">*</span></label>
+                <input class="form-input" id="email" name="email"  placeholder="example@email.com" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Must be in format of example@email.com" required="" /><br>
 
-            <fieldset>
-            
-                <label class="form-text" for="location">Prefered Location</label><br>
+
+                <label class="form-text" for="subject">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <label class="form-text" for="location">Preferred Location</label>
                 <select>
                     <option value="Ranelagh">Ranelagh</option>
                     <option value="Fitzwilliam">Fitzwilliam Street Upper</option>
                     <option value="Wicklow">Wicklow</option>
-                </select><br><br>
+                </select>
 
-                <label class="form-text" for="treatment">Prefered Treatment</label><br>
+                <label class="form-text" for="treatment">Preferred Treatment</label>
                 <select>
                     <option value="Individual Therapy">Individual Therapy</option>
                     <option value="Couples Therapy">Couples Therapy</option>
                     <option value="Psych">Psych Assessment (Litigation Only)</option>
-                </select><br><br>            
-            </fieldset>            
-            </div>
-            <div class="col-xs-12 col-md-4">
-            
-            <fieldset>
-            
-                <label class="form-text" for="subject">Message</label><br>
-                <textarea id="message" name="message"></textarea><br><br>
+                </select>
             
 
                 <label for="submit"></label>
-                <input id="send" type="submit" value="Send"/>                
-            </fieldset>
-            </div>            
-        </form>
-    </div>
+                <input id="send" type="submit" value="Send"/>  
+            </fieldset>              
+         </div>
+
+
+
+         <div class="col-xs-12 col-md-6 appointment-form">
+             <h2 align="center">General Enquiry</h2><hr class="end-hr">
+            <fieldset>
+            
+                <label class="form-text" for="fullname">Full Name <span class="form-red">*</span></label>
+                <input class="form-input" type="text" id="fname" name="fullname" required=""/>
+
+                <label class="form-text" for="telephone">Telephone <span class="form-red">*</span></label>
+                <input class="form-input" id="telephone" name="telephone" type="text" required="" />
+
+                <label class="form-text" for="email">Email <span class="form-red">*</span></label>
+                <input class="form-input" id="email" name="email"  placeholder="example@email.com" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Must be in format of example@email.com" required="" /> 
+
+                <label class="form-text" for="subject">Message</label>
+                <textarea id="message-two" name="message"></textarea>
+            
+
+                <label for="submit"></label>
+                <input id="send" type="submit" value="Send"/>  
+            </fieldset> 
+         </div>
+     </div><br>
 <!--End of Form-->
     <div class="row">
     <h2 align="center">Locations</h2><hr class="end-hr">
