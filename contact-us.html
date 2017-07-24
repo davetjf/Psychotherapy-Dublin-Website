@@ -109,7 +109,9 @@
 .cu-pic-location{
     
     padding: 50px 40px 0 40px;
+
 }
+
 .map-pic{
     color: white;
     font-size: 30px;
@@ -159,7 +161,6 @@ input{
 }
 
 
-
 .appointment-form{
     border: 1px solid teal;
     height: 620px;
@@ -167,6 +168,11 @@ input{
 select{
     width: 100%;
 }
+
+.cu-pic-link:hover{
+    text-decoration: none;
+}
+
 
 
 
@@ -281,6 +287,7 @@ select{
      <div class="row" id="form">
          <div class="col-xs-12 col-md-6 appointment-form">
              <h2 align="center">Book an Appointment</h2><hr class="end-hr">
+             <form>
             <fieldset>
             
                 <label class="form-text" for="fullname">Full Name <span class="form-red">*</span></label>
@@ -313,13 +320,15 @@ select{
 
                 <label for="submit"></label>
                 <input id="send" type="submit" value="Send"/>  
-            </fieldset>              
+            </fieldset>
+            </form>              
          </div>
 
 
 
          <div class="col-xs-12 col-md-6 appointment-form">
              <h2 align="center">General Enquiry</h2><hr class="end-hr">
+            <form>
             <fieldset>
             
                 <label class="form-text" for="fullname">Full Name <span class="form-red">*</span></label>
@@ -337,34 +346,35 @@ select{
 
                 <label for="submit"></label>
                 <input id="send" type="submit" value="Send"/>  
-            </fieldset> 
+            </fieldset>
+            </form> 
          </div>
      </div><br>
 <!--End of Form-->
     <div class="row">
     <h2 align="center">Locations</h2><hr class="end-hr">
         <div class="col-xs-12 col-md-4">
-            <div id="cu-p1" class="cu-pic">
+            <a href="#" title="Get Directions" class="cu-pic-link"><div id="cu-p1" class="cu-pic">
                 <h3 align="center" class="white cu-pic-location">Fitzwilliam</h3>
                 <i class="map-pic fa fa-map-marker"></i>
-                
-            </div><br><br>
+                </div><br><br></a>
+            
             <h3 align="center">23 Fitzwilliam Street Upper<br>Grand Canal Dock<br>Dublin 2</h3><br>
         </div>
         <div class="col-xs-12 col-md-4">
-            <div id="cu-p2" class="cu-pic">
+            <a href="#" title="Get Directions" class="cu-pic-link"><div id="cu-p2" class="cu-pic">
                 <h3 align="center" class="white cu-pic-location">Ranelagh</h3>
                 <i class="map-pic fa fa-map-marker"></i>
-                
-            </div><br><br>
+                </div><br><br></a>
+
             <h3 align="center">122 Ranelagh Village<br>Ranelagh<br>Dublin 6</h3><br>
         </div>
         <div class="col-xs-12 col-md-4">
-            <div id="cu-p3" class="cu-pic">
+            <a href="#" title="Get Directions" class="cu-pic-link"><div id="cu-p3" class="cu-pic">
                 <h3 align="center" class="white cu-pic-location">Wicklow</h3>
                 <i class="map-pic fa fa-map-marker"></i>
-                
-            </div><br><br>
+                </div><br><br></a>
+
             <h3 align="center">Ennac Road, Dunbur Road<br>Wicklow Town<br>Co. Wicklow</h3><br>
         </div>
 
