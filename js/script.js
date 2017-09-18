@@ -1,5 +1,16 @@
 $(document).ready(function() {
 
+    $('.carousel').carousel({
+      interval: 4200
+    })
+
+    $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).fadeIn(300);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).fadeOut(300);
+});
+
+
   $(function () {
   $(document).scroll(function () {
     var $nav = $(".navbar-fixed-top");
@@ -49,6 +60,53 @@ $(document).scroll(function() {
     $("#col-two").on("mouseleave", function(){
         $("#show-two").toggle();
     });
+/*Fade in for 3rd section code below taken from https://jsfiddle.net/tcloninger/e5qaD/*/
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('#col-one').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},400);
+                    
+            }
+            
+        }); 
+        $('#col-two').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},800);
+                    
+            }
+            
+        });
+        $('#col-three').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1200);
+                    
+            }
+            
+        });
+    
+    });
+
 
 
    /*Associated friends and partners*/

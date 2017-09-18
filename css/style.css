@@ -68,11 +68,19 @@ html,body{
     margin-top: 30px;
     padding-top: 20px;
     margin-bottom: 50px;
+    min-height: 400px;
+    
 }
 .section-text{
     font-weight: 400;
+    font-size: 15px;
+    line-height: 1.5;
+    float: left;
 }
-
+.bold-grey{
+    font-weight: 800;
+    color: grey;
+}
 /*Section A Button*/
 @keyframes spin {
     from { transform: rotate(0deg); }
@@ -85,7 +93,9 @@ html,body{
     animation-duration: 50s;
     animation-iteration-count: infinite; 
     animation-timing-function: linear;
-    margin-left: 60px;
+    margin-top: -190px;
+    float: right;
+    
 
 }
 .section-a-btn{
@@ -93,12 +103,14 @@ html,body{
     width: 120px;
     font-size: 15px;
     border-radius: 50%;
-    border: 1px solid rgba(255,215,0,0.8);
+    border: 1px solid white;
     color: white;
     background-color: rgba(0, 128, 128, 0.5);
     position: relative;
-    right: -95px;
-    bottom: 155px;
+    margin-top: -155px;
+    margin-right: 35px;
+    float: right;
+    
     }
 .section-a-btn:hover{
     background-color: white;
@@ -170,6 +182,11 @@ html,body{
         color: white;
     }
     .dropdown-menu>li>a{
+        background-color: white;
+        color:teal;
+    }
+
+    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
         background-color: teal;
         color:white;
     }
@@ -221,7 +238,45 @@ html,body{
 
 
 
+/*Parallax CSS*/
+.parallax1, .parallax2, .parallax3, .parallax4 {
 
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.parallax1{
+    background-image: url("../img/expert1.jpg");
+
+
+}
+.parallax2{
+    background-image: url("../img/experienced1.jpg");
+      
+    
+} 
+.parallax3{
+    background-image: url("../img/individuality1.jpg");    
+    
+}
+.parallax4{
+    background-image: url("../img/transformation1.jpg");    
+    
+} 
+
+#col-one, #col-two, #col-three
+{
+    opacity:0;
+}
 
 
 
@@ -367,13 +422,18 @@ html,body{
 
 .content-section-a{
     padding: 50px 0;
-    background-color: rgba(255,215,0,0.3);
+    border-top: 10px solid white;
+    border-bottom:10px solid white;
+    /*background-color: rgba(255,215,0,0.3);*/
 }
 .content-section-b{
     padding: 50px 0;
+        border-top: 10px solid white;
+    border-bottom:10px solid white;
 }
 .img-content{
     margin-top: 30px;
+    border: 1px solid white;
 }
 
 /*End of Section-b CSS*/
@@ -442,7 +502,7 @@ html,body{
     color: teal;
     border-right: none;
     border-left: none;
-    height: 40px;
+    height: 100px;
     width: 150px;
     font-size: 20px;
     margin-left: 110px;
@@ -454,7 +514,8 @@ html,body{
     
     border-top: 2px solid rgba(0, 128, 128, 0.2);
     border-bottom: 2px solid rgba(0, 128, 128, 0.2);
-    height: 45px;
+    
+    
 
 }
 
@@ -485,13 +546,29 @@ html,body{
 }
 
 #section-c{
-    margin-bottom: 100px;
+    margin-top: 50px;
+
     
-    background-color: rgba(255,215,0,0.3);
+    /*background-color: rgba(0,128,128,0.2);*/
+    min-height: 300px;
  
+}
+.font-size{
+    font-size: 15px;
 }
 /*End of section c*/
 
 /*Contact Us Start*/
 
 /*Contact US End*/
+
+@media only screen and (max-width: 500px) {
+    .img-button {
+        margin-top: 0;
+        margin-right: 100px; 
+    }
+    .section-a-btn {
+        margin-right: 135px;
+    }
+}
+
