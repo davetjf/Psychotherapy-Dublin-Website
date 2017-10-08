@@ -278,6 +278,13 @@ html,body{
     opacity:0;
 }
 
+#appointment-one, #appointment-two, #appointment-three, #appointment-four, #appointment-five, #appointment-six, #appointment-seven, #appointment-eight, #appointment-nine
+{
+    opacity:0;
+}
+
+
+
 
 
 
@@ -510,13 +517,34 @@ html,body{
     border-radius: 10px;
 }
 
+ .section-d-btn{
+    
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+    background-color: transparent;
+    color: teal;
+    border-right: none;
+    border-left: none;
+    height: 50px;
+    width: 180px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+
+
 .section-c-btn:hover{
     
     border-top: 2px solid rgba(0, 128, 128, 0.2);
     border-bottom: 2px solid rgba(0, 128, 128, 0.2);
     
+}
+.section-d-btn:hover{
     
-
+    border-top: 2px solid rgba(0, 128, 128, 0.2);
+    border-bottom: 2px solid rgba(0, 128, 128, 0.2);
+    
 }
 
 
@@ -562,6 +590,27 @@ html,body{
 
 /*Contact US End*/
 
+/*About Us Start*/
+#aboutus-a{
+    margin-top: 30px;
+}
+#careers-a{
+    height: 100px;
+    width: 100%;
+    background-image: url(../img/aboutusbanner.jpg);
+    background-size: cover;
+    
+}
+
+
+/*About Us End*/
+
+
+/*Appointments Start*/
+
+/*Appointments End*/
+
+
 @media only screen and (max-width: 500px) {
     .img-button {
         margin-top: 0;
@@ -570,5 +619,9 @@ html,body{
     .section-a-btn {
         margin-right: 135px;
     }
+    #careers-a{
+        background-image: none;
+    }
+
 }
 
