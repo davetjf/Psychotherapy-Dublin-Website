@@ -1,61 +1,45 @@
-# Angular Todo App
+# Stream 1 Front End Development Project 
  
 ## Overview
- 
-### What is this app for?
- 
-This is a Todo app. It helps users to keep track of any things that they have todo.
- 
-### What does it do?
- 
-This app will allow users to register and login. Once the users have done that, they'll be able to create items to add to their todo list. Once they've created their todo list, they'll be able to update the status of each item and even delete items!
- 
-### How does it work
- 
-This app uses JSON Web Tokens to authenticate users and keep them logged in. All the data is consumed from an API hosted on Heroku using AngularJS. The site is styled with Bootstrap.
+
+This is a front end development project. The goal is to re-develop a website for a Psychotherapy Clinic using new images from the offices. The project is to show case the offices and also make the website interactive for the end user. Another goal of the website is to inform potantial clients about Psychoanalysis, give information about the clinic itself, and progress to call the clinic or book a session.  
  
 ## Features
  
-### Existing Features
-- None yet!
+### Existing Pages
+- Homepage
+- Our Services
+- About Us
+- Your Psychotherapists
+- Appointments
+- Contact Us
  
-### Features Left to Implement
-- User Based Features
-    - Registration
-    - Login
-    - Logout
-- Todo Based Features
-    - Creating Todo Items
-    - Retrieving Todo Items
-    - Updating Todo Items
-    - Deleting Todo Items
+### Features Left to Complete
+- Double checking all links divert correctly
+- Check mobile styling 
+- NavBar Collapse
+
  
 ## Tech Used
 ### Some of the tech used includes:
-- [AngularJS](https://angularjs.org/)
-    - We use **AngularJS** to handle page routing, we also use it to make calls to the REST API and build custom directives
 - [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
-- [npm](https://www.npmjs.com/)
-    - We use **npm** to help manage some of the dependencies in our application
-- [bower](https://bower.io/)
-    - **Bower** is used to manage the installation of our libraries and frameworks
- 
+    - I used **Bootstrap** to give the project a simple, responsive layout
+- [jQuery](https://www.jquery.com/)
+    - I used **jQuery** to help with the style and user interactions
+
+## Installing
+### How to get a development environment up and running
+
+## Testing
+### What tests and why?
+Still needs to be completed
+
+## Deployment 
+
+## Versioning
+
 ## Contributing
- 
-### Getting the code up and running
-1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
-2. After you've that you'll need to make sure that you have **npm** and **bower** installed
-  1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
-  2. Once you've done this you'll need to run the following command:
-     `npm install -g bower # this may require sudo on Mac/Linux`
-3. Once **npm** and **bower** are installed, you'll need to install all of the dependencies in *package.json* and *bower.json*
-  ```
-  npm install
- 
-  bower install
-  ```
-4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
-5. Once **http-server** is installed run ```http-server -c-1```
-6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request
+
+## Authors
+
+## Acknowledgments
