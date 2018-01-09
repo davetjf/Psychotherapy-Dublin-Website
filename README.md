@@ -4,7 +4,7 @@
 
 This is a front end development project. The goal is to re-develop a website for a Psychotherapy Clinic using new images from the offices. The project is to show case the offices and also make the website interactive for the end user. Another goal of the website is to inform potantial clients about Psychoanalysis, give information about the clinic itself, and progress to call the clinic or book a session. 
 
-##Project Guidelines
+## Project Guidelines
 - Create a website of around 4-5 pages, or (if using a single scrolling page) these should be separate page areas
 - Incorporate main navigation and grid layout (you might want to use Flexbox or Bootstrap to accomplish this)
 - Include at least one form with validation. Since you are not expected to build a backend for the project, all this form needs to do is inform the user of whether or not the data was submitted successfully (i.e. passed validation)
@@ -19,7 +19,7 @@ This is a front end development project. The goal is to re-develop a website for
 ## Features
  
 ### Existing Pages
-- Navbar/Footer
+#### Navbar/Footer
 The Navbar and Footer are the same across all the pages. The Navbar is transparant at first and changes on scroll with jQuery and CSS classes. The dropdown menu is also enabled with jQuery. Navbar is fixed to top and scrolls with page to ensure easy site navigation. 
 
 The top banner above the Navbar slides up with jQuery on scroll and appears again once scrolled back up to the top. The email when clicked should open computers default email and social media links open in a new tab. 
@@ -56,16 +56,6 @@ I used keyframes for the main logo to fade in when the site loads.
 ## Installing
 ### How to get a development environment up and running
 Click clone/download on the right of the repo. Download zip to desktop. Once downloaded open folder and remove all to a new folder which you can self title. With Sublime text editor open up any file required. To view webiste right click and select "view in browser". Viewing in Chrome is recommended.
-
-
-
-## Tech Used
-### Some of the tech used includes:
-- [Bootstrap](http://getbootstrap.com/)
-    - I used **Bootstrap** to give the project a simple, responsive layout
-- [jQuery](https://www.jquery.com/)
-    - I used **jQuery** to help with the style and user interactions
-
 
 ## Testing
 ### What tests and why?
