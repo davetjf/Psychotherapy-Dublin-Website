@@ -81,6 +81,7 @@ html,body{
     font-weight: 800;
     color: grey;
 }
+
 /*Section A Button*/
 @keyframes spin {
     from { transform: rotate(0deg); }
@@ -152,15 +153,19 @@ html,body{
 
 
 
-    .navbar-logo{
-        margin-top: -25px;
-    }
-    .navbar-fixed-top{
-        background-color: transparent;
-        border-bottom: none;
-        height: 118px;
-        transition: background-color 500ms linear;
+.navbar-logo{
+    margin-top: -25px;
+}
+.navbar-fixed-top{
+    background-color: transparent;
+    border-bottom: none;
+    height: 118px;
+    transition: background-color 500ms linear;
+}
 
+        #no-decoration:hover{
+        
+        color: white;
     }
     .navbar-fixed-top.scrolled {
         background-color: teal !important;
@@ -168,8 +173,11 @@ html,body{
         border-bottom: 1px solid white;
     }
     .navbar-toggle{
-        height: 57px;
+        height: 75px;
+        background-color: #4A4040;
+
     }
+
     .navbar-default .navbar-nav>li>a{
         color: white;
     }
@@ -232,9 +240,7 @@ html,body{
         padding-top: 20px;
     }
 
-    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
-        height: 91px;
-    }
+
 
 
 
@@ -585,10 +591,7 @@ html,body{
     font-size: 15px;
 }
 /*End of section c*/
-
-/*Contact Us Start*/
-
-/*Contact US End*/
+1
 
 /*About Us Start*/
 #aboutus-a{
@@ -602,13 +605,20 @@ html,body{
     
 }
 
+a:hover{
+    color: white;
+}
+a:focus{
+    color:white;
+}
 
+#careers-email:hover{
+    color: teal;
+}
+#careers-email:focus{
+    color:teal;
+}
 /*About Us End*/
-
-
-/*Appointments Start*/
-
-/*Appointments End*/
 
 
 @media only screen and (max-width: 500px) {
@@ -621,6 +631,13 @@ html,body{
     }
     #careers-a{
         background-image: none;
+    }
+    .top-banner{
+        display: none;
+    }
+        .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+        /*height: 91px;*/
+        background-color: teal;
     }
 
 }
