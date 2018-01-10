@@ -59,7 +59,8 @@ Click clone/download on the right of the repo. Download zip to desktop. Once dow
 ### What tests and why?
 Still needs to be completed
 
-## Deployment 
+## Deployment
+I encountered problems with deployment as the correct files didn't seem to carry over. Some image issues also. 
 
 ## Versioning
 I used GitHub for versioning. 
