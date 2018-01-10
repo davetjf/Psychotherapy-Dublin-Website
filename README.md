@@ -28,21 +28,19 @@ For the footer icons and buttons were used for a clean look, built into the boot
 
 Throughout the Navbar and Footer (along with most of the site) pseudo classes were used for style and to make the site interactive. 
 
-- Homepage
+#### Homepage
 I wanted sharp images for the landing page and incorporated them into the bootstrap carousel. jQuery was used to override the carousel to start when page loads.
-I used keyframes for the main logo to fade in when the site loads. 
+I used keyframes for the main logo to fade in when the site loads. The same Keyframes is used on all slides. 
 
-- Our Services
-- About Us
-- Your Psychotherapists
-- Appointments
-- Contact Us
- 
-### Features Left to Complete
-- Double checking all links divert correctly
-- Check mobile styling 
-- NavBar Collapse
+Underneath the slider I incorporated a button within the Psychotherapy Dublin logo. This links to a different part of the website. Here I used positioning to place the button within the logo. I also used Keyframes to animate the logo (rotates slowly) for some fun. As with most buttons, :hover was used to give an interactive feel.
 
+
+
+#### Our Services
+#### About Us
+#### Your Psychotherapists
+#### Appointments
+#### Contact Us
  
 ## Tech Used
 ### Some of the tech used includes:
@@ -69,3 +67,4 @@ I used GitHub for versioning.
 ## Author
 David Fortune
 
+## Acknowledgements
