@@ -260,6 +260,8 @@ html,body{
 
 }
 
+button:focus{ outline:0 !important; }
+
 .parallax1{
     background-image: url("../img/expert1.jpg");
 
@@ -518,7 +520,7 @@ html,body{
     height: 100px;
     width: 150px;
     font-size: 20px;
-    margin-left: 110px;
+    margin-left: 25%;
     margin-top: 60px;
     border-radius: 10px;
 }
@@ -620,6 +622,14 @@ a:focus{
 }
 /*About Us End*/
 
+.cu-pic{
+    width: 300px;
+    height: 170px;
+    border-radius: 25px;
+    margin-left: 15%;
+    transition-duration: 0.5s;
+}
+
 
 @media only screen and (max-width: 500px) {
     .img-button {
@@ -639,6 +649,13 @@ a:focus{
         /*height: 91px;*/
         background-color: teal;
     }
-
+    .cu-pic{
+    width: 300px;
+    height: 170px;
+    border-radius: 25px;
+    margin-left: 6%;
+    transition-duration: 0.5s;
+}
+    
 }
 

@@ -57,10 +57,12 @@ Click clone/download on the right of the repo. Download zip to desktop. Once dow
 
 ## Testing
 ### What tests and why?
-Still needs to be completed
+Testing all functionality on mobile once deployed. Found issues with margins as "px" was used instead of % in many cases. These have been amended and resolved.
+
+More tests still need to be completed on mobile devices and functionality on different browsers. 
 
 ## Deployment
-I encountered problems with deployment as the correct files didn't seem to carry over. Some image issues also. 
+I encountered problems with deployment as the correct files didn't seem to carry over which was resolved using git bash. Initial image issues at the start also as gh-pages is case sensitive. 
 
 ## Versioning
 I used GitHub for versioning. 
