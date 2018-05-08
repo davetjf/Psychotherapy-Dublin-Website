@@ -32,15 +32,21 @@ Throughout the Navbar and Footer (along with most of the site) pseudo classes we
 I wanted sharp images for the landing page and incorporated them into the bootstrap carousel. jQuery was used to override the carousel to start when page loads.
 I used keyframes for the main logo to fade in when the site loads. The same Keyframes is used on all slides. 
 
-Underneath the slider I incorporated a button within the Psychotherapy Dublin logo. This links to a different part of the website. Here I used positioning to place the button within the logo. I also used Keyframes to animate the logo (rotates slowly) for some fun. As with most buttons, :hover was used to give an interactive feel.
+Underneath the slider I incorporated a button within the Psychotherapy Dublin logo. This links to a different part of the website. Here I used CSS positioning to place the button within the logo. I also used Keyframes to animate the logo (rotates slowly) for some fun. As with most buttons, :hover was used to give an interactive feel.
 
+In the next section I developed a parallax effect using CSS and got the styling idea from a bootstrap example. 
 
+Below the parallax I used jQuery to fade in three buttons on scroll. 
 
-#### Our Services
-#### About Us
-#### Your Psychotherapists
-#### Appointments
+For the "Associated Friends and Partners" section I used CSS and HTML to create the slider effect. This is limited to four loops before starting again and could be coded a little better, but works for now. Using jQuery and CSS the slider stops and changes color on mouse hover.
+
+#### Our Services, About Us, Your Psychotherapists, Appointments
+
+All these pages have different variations of bootstrap grid design. jQuery fade in can be seen throughout. I've also embedded a video, and images. Overriding CSS was used for styling many of the email links.   
+
 #### Contact Us
+
+On this page I coded two forms as I wanted to play around with style. Validation is used for the email. Pseudo classed were also used for mouse hover on the location images. 
  
 ## Tech Used
 ### Some of the tech used includes:
@@ -57,12 +63,17 @@ Click clone/download on the right of the repo. Download zip to desktop. Once dow
 
 ## Testing
 ### What tests and why?
-Testing all functionality on mobile once deployed. Found issues with margins as "px" was used instead of % in many cases. These have been amended and resolved.
+Testing all functionality on mobile once deployed. Found issues with margins as "px" was used instead of % in many cases. These have been amended and resolved. Also the drop down menu in the NavBar doesn't fully close when pressed a second time. 
+
+#### NavBar
+- Mobile Issues with the drop down menu on the Navbar when closing the menu. Doesn't fully dissappear. This is on mobile.  
 
 More tests still need to be completed on mobile devices and functionality on different browsers. 
 
 ## Deployment
-I encountered problems with deployment as the correct files didn't seem to carry over which was resolved using git bash. Initial image issues at the start also as gh-pages is case sensitive. 
+I encountered problems with deployment as the correct files didn't seem to carry over which was resolved using git bash. Initial image issues at the start also as gh-pages is case sensitive.
+
+
 
 ## Versioning
 I used GitHub for versioning. 
