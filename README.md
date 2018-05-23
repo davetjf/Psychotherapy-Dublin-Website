@@ -63,33 +63,35 @@ Click clone/download on the right of the repo. Download zip to desktop. Once dow
 
 ## Testing
 ### What tests and why?
-Testing all functionality on mobile once deployed. Found issues with margins as "px" was used instead of % in many cases. These have been amended and resolved. Also the drop down menu in the NavBar doesn't fully close when pressed a second time which needs to be rectified.  
+Testing all functionality on mobile once deployed. 
+
+#### Mobile
+Found issues with margins as "px" was used instead of % in many cases. These have been amended and resolved. Also the drop down menu in the NavBar doesn't fully close when pressed a second time which needs to be rectified.
+
+Code tested on https://ready.mobi/
+ - 1 Major error found; No ETag support.  
 
 #### Mozilla
 When buttons are clicked on homepage and directed to sections of other pages the NavBar is invisible. NavBar only shows on scroll.
 
 On the pages with jQuery fade in effects and bootstrap design the row seems to extend, which doesn't happen on Chrome. There's issues with the Width. The project was primarilly developed on Chrome.
 
+#### Edge 
+Only issue here is with the logo slider above the footer. Logo's should be "grayscale" and appear in colour on hover, however on Edge they appear in colour. 
 
+#### Safari 
+Unable to open project on safari. Unsure if it's a project issue. No github page seems to compatable. Need to look into this further as I've tried all recommended troubleshooting options.  
 
+#### Code Validation
 Code checked using below sites
 https://validator.w3.org/
 https://jigsaw.w3.org/css-validator/
 
-Parse error found in CSS validator which has been rectified.
-
-35 HTML Error messages which are being worked through.
-
-
-#### NavBar
-- Mobile Issues with the drop down menu on the Navbar when closing the menu. Doesn't fully dissappear. This is on mobile.  
-
-More tests still need to be completed on mobile devices and functionality on different browsers. 
+- Parse error found in CSS validator which has been rectified.
+- Homepage: 35 HTML Error messages which are being worked through.
 
 ## Deployment
 I encountered problems with deployment as the correct files didn't seem to carry over which was resolved using git bash. Initial image issues at the start also as gh-pages is case sensitive.
-
-
 
 ## Versioning
 I used GitHub for versioning. 
