@@ -1,6 +1,5 @@
 /*CSS SLIDER BOOTSTRAP CODE*/
 
-
 .carousel,
 .item,
 .active {
@@ -10,6 +9,7 @@
 .carousel-inner {
     height: 100%;
 }
+
 
 /* Background images are set within the HTML using inline CSS, not here */
 
@@ -24,82 +24,84 @@
 }
 
 
-
 /*end of css slider bootstrap code*/
 
-html,body{
-	height: 100%;
-	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-
-
+html,
+body {
+    height: 100%;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#main-logo{
+#main-logo {
     display: inline;
 }
 
-    @keyframes phase {
+@keyframes phase {
     0% {
-      
-      opacity: 0;
-      
+        opacity: 0;
     }
     100% {
-      
-      
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  .slider-hr{
-  	width: 60%;
-  	background-color: rgba(0, 128, 128, 0.5);
-  	height: 4px;
-  	border: none;
-  	border-radius: 50%;
-  }
-  .section-hr{
+}
+
+.slider-hr {
+    width: 60%;
+    background-color: rgba(0, 128, 128, 0.5);
+    height: 4px;
+    border: none;
+    border-radius: 50%;
+}
+
+.section-hr {
     width: 30%;
     background-color: rgba(0, 128, 128, 0.5);
     height: 4px;
     border: none;
     border-radius: 50%;
-  }
-#section-a{
+}
+
+#section-a {
     margin-top: 30px;
     padding-top: 20px;
     margin-bottom: 50px;
     min-height: 400px;
-    
 }
-.section-text{
+
+.section-text {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5;
     float: left;
 }
-.bold-grey{
+
+.bold-grey {
     font-weight: 800;
     color: grey;
 }
 
+
 /*Section A Button*/
+
 @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-
-.img-button{
-    animation-name: spin; 
+.img-button {
+    animation-name: spin;
     animation-duration: 50s;
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
     margin-top: -190px;
     float: right;
-    
-
 }
-.section-a-btn{
+
+.section-a-btn {
     height: 120px;
     width: 120px;
     font-size: 15px;
@@ -111,206 +113,217 @@ html,body{
     margin-top: -155px;
     margin-right: 35px;
     float: right;
-    
-    }
-.section-a-btn:hover{
+}
+
+.section-a-btn:hover {
     background-color: white;
     color: rgb(0, 128, 128);
     transition-duration: 0.5s;
 }
+
+
 /*End Section A Button*/
 
-.carousel-caption{
-	animation-name: phase;
-	animation-duration: 5s;
-}
-.other-slider{
-	margin-bottom: 100px;
-}
-.landing-button{
-	border-radius: 20px;
-	background-color: teal;
-	border: none;
-	color: white;
-	font-size: 15px;
-	font-weight: 500;
-	height: 30px;
-	width: 120px;
-	padding: 5px;
-	margin-bottom: 20px;
-}
-.landing-button:hover{
-	background-color: white;
-	color: teal;
-	transition-duration: 0.5s;
+.carousel-caption {
+    animation-name: phase;
+    animation-duration: 5s;
 }
 
-.carousel-indicators .active{
-	background-color: teal;
+.other-slider {
+    margin-bottom: 100px;
 }
 
+.landing-button {
+    border-radius: 20px;
+    background-color: teal;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    height: 30px;
+    width: 120px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
 
+.landing-button:hover {
+    background-color: white;
+    color: teal;
+    transition-duration: 0.5s;
+}
 
+.carousel-indicators .active {
+    background-color: teal;
+}
 
-
-.navbar-logo{
+.navbar-logo {
     margin-top: -25px;
 }
-.navbar-fixed-top{
+
+.navbar-fixed-top {
     background-color: transparent;
     border-bottom: none;
     height: 118px;
     transition: background-color 500ms linear;
 }
 
-        #no-decoration:hover{
-        
-        color: white;
-    }
-    .navbar-fixed-top.scrolled {
-        background-color: teal !important;
-        transition: background-color 500ms linear;
-        border-bottom: 1px solid white;
-    }
-    .navbar-toggle{
-        height: 75px;
-        background-color: #4A4040;
+#no-decoration:hover {
+    color: white;
+}
 
-    }
+.navbar-fixed-top.scrolled {
+    background-color: teal !important;
+    transition: background-color 500ms linear;
+    border-bottom: 1px solid white;
+}
 
-    .navbar-default .navbar-nav>li>a{
-        color: white;
-    }
-    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
-        color:white;
-        text-decoration: underline;
-    }
-    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-        background-color: teal;
-        color: white;
-    }
-    .dropdown-menu>li>a{
-        background-color: white;
-        color:teal;
-    }
+.navbar-toggle {
+    height: 75px;
+    background-color: #4A4040;
+}
 
-    .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
-        background-color: teal;
-        color:white;
-    }
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
 
-    .top-banner{
-        max-height: 25px;
-        background-color: rgba(0, 128, 128, 0.5);
-        
-    }
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    text-decoration: underline;
+}
 
-    .sm-top-banner{
-        float: right;
-        color: white;
-        padding: 5px 0 5px 30px;
-    }
-    .contact-top-banner{
-        color: white;
-        padding: 5px 10px 5px 5px;
-    }
-    .top-banner-contact-style{
-        font-weight: 500;
-        font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-        padding-left: 8px;
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: teal;
+    color: white;
+}
 
-    }
-    .sm-top-fb:hover{
-        color: #4b67a1;
+.dropdown-menu>li>a {
+    background-color: white;
+    color: teal;
+}
 
-    }
-    .sm-top-tw:hover{
-        color: #00b6f1;
-    }
-    .sm-top-gp:hover{
-        color: #df4a32;
-    }
-    .sm-top-li:hover{
-        color: #007bb6;
-    }
-    .navbar-brand>img{
-        padding-top: 20px;
-    }
-    .navbar-default .navbar-collapse, .navbar-default .navbar-form{
-        padding-top: 20px;
-    }
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: teal;
+    color: white;
+}
 
+.top-banner {
+    max-height: 25px;
+    background-color: rgba(0, 128, 128, 0.5);
+}
 
+.sm-top-banner {
+    float: right;
+    color: white;
+    padding: 5px 0 5px 30px;
+}
 
+.contact-top-banner {
+    color: white;
+    padding: 5px 10px 5px 5px;
+}
+
+.top-banner-contact-style {
+    font-weight: 500;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-left: 8px;
+}
+
+.sm-top-fb:hover {
+    color: #4b67a1;
+}
+
+.sm-top-tw:hover {
+    color: #00b6f1;
+}
+
+.sm-top-gp:hover {
+    color: #df4a32;
+}
+
+.sm-top-li:hover {
+    color: #007bb6;
+}
+
+.navbar-brand>img {
+    padding-top: 20px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    padding-top: 20px;
+}
 
 
 /*Parallax CSS*/
-.parallax1, .parallax2, .parallax3, .parallax4 {
 
-
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4 {
     /* Set a specific height */
-    min-height: 300px; 
-
-
+    min-height: 300px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
-button:focus{ outline:0 !important; }
+button:focus {
+    outline: 0 !important;
+}
 
-.parallax1{
+.parallax1 {
     background-image: url("../img/expert1.jpg");
-
-
 }
-.parallax2{
+
+.parallax2 {
     background-image: url("../img/experienced1.jpg");
-      
-    
-} 
-.parallax3{
-    background-image: url("../img/individuality1.jpg");    
-    
-}
-.parallax4{
-    background-image: url("../img/transformation1.jpg");    
-    
-} 
-
-#col-one, #col-two, #col-three
-{
-    opacity:0;
 }
 
-#appointment-one, #appointment-two, #appointment-three, #appointment-four, #appointment-five, #appointment-six, #appointment-seven, #appointment-eight, #appointment-nine
-{
-    opacity:0;
+.parallax3 {
+    background-image: url("../img/individuality1.jpg");
 }
 
+.parallax4 {
+    background-image: url("../img/transformation1.jpg");
+}
 
+#col-one,
+#col-two,
+#col-three {
+    opacity: 0;
+}
 
-
-
-
-
+#appointment-one,
+#appointment-two,
+#appointment-three,
+#appointment-four,
+#appointment-five,
+#appointment-six,
+#appointment-seven,
+#appointment-eight,
+#appointment-nine {
+    opacity: 0;
+}
 
 
 /*Footer CSS*/
-#footer{
+
+#footer {
     border-top: 7px solid teal;
     max-height: 800px;
 }
 
-#top-footer{
+#top-footer {
     background-color: #777;
 }
 
-
-.icon-bottom{
+.icon-bottom {
     height: 35px;
     width: 35px;
     border-radius: 50%;
@@ -321,44 +334,53 @@ button:focus{ outline:0 !important; }
     color: white;
     background-color: teal;
 }
-.icon-bottom:hover{
-    background-color: white;
-    color: teal;
-    transition-duration: 0.3s;
-}
-.footer-content{
-    color: #ddd;
-}
-.footer-content-weight{
-    font-weight: 600;
-}
-.align{
-    margin-left: 45px;
-}
-.style{
-    padding: 20px;
-    margin-top: 10px;
-    margin-left: -15px;
-}
-.phone-icon{
-    margin-top: -6px;
-}
-.white{
-    color: white;
-}
-.footer-button{
-    border-radius: 25px;
-    background-color: teal;
-    color: white;
-    font-size: 15px;
-}
-.footer-button:hover{
+
+.icon-bottom:hover {
     background-color: white;
     color: teal;
     transition-duration: 0.3s;
 }
 
-.sm-footer{
+.footer-content {
+    color: #ddd;
+}
+
+.footer-content-weight {
+    font-weight: 600;
+}
+
+.align {
+    margin-left: 45px;
+}
+
+.style {
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.phone-icon {
+    margin-top: -6px;
+}
+
+.white {
+    color: white;
+}
+
+.footer-button {
+    border-radius: 25px;
+    background-color: teal;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-button:hover {
+    background-color: white;
+    color: teal;
+    transition-duration: 0.3s;
+}
+
+.sm-footer {
     height: 40px;
     width: 40px;
     border-radius: 50%;
@@ -370,92 +392,107 @@ button:focus{ outline:0 !important; }
     margin-top: 50px;
     color: #ddd;
 }
-#sm-footer-fb:hover{
+
+#sm-footer-fb:hover {
     background-color: #4b67a1;
     color: white;
     border: 1px solid #4b67a1;
 }
-#sm-footer-tw:hover{
+
+#sm-footer-tw:hover {
     background-color: #00b6f1;
     color: white;
     border: 1px solid #00b6f1;
 }
-#sm-footer-gp:hover{
-    background-color:  #df4a32;
+
+#sm-footer-gp:hover {
+    background-color: #df4a32;
     color: white;
     border: 1px solid #df4a32;
 }
-#sm-footer-li:hover{
-    background-color:  #007bb6;
+
+#sm-footer-li:hover {
+    background-color: #007bb6;
     color: white;
     border: 1px solid #007bb6;
 }
 
-.bottom-footer{
+.bottom-footer {
     background-color: #4A4040;
     max-height: 100px;
     padding-top: 15px;
 }
-.bottom-footer-style{
+
+.bottom-footer-style {
     padding: 0 10px 10px 10px;
 }
-.copyright{
+
+.copyright {
     margin-bottom: -5px;
 }
-.footer-logo{
+
+.footer-logo {
     float: right;
     margin-top: -20px;
-
 }
+
+
 /*End of Footer CSS*/
 
+
 /*start of Section-b CSS*/
-.b-hr{
-    
+
+.b-hr {
     background-color: rgba(0, 128, 128, 0.5);
     height: 4px;
     border: none;
     border-radius: 50%;
-
 }
-.end-hr{
+
+.end-hr {
     width: 33%;
     background-color: rgba(0, 128, 128, 0.5);
     height: 4px;
     border: none;
     border-radius: 50%;
-
 }
-.bottom-hr{
+
+.bottom-hr {
     width: 33%;
     background-color: rgba(0, 128, 128, 0.5);
     height: 4px;
     border: none;
     border-radius: 50%;
-
 }
 
-.content-section-a{
+.content-section-a {
     padding: 50px 0;
     border-top: 10px solid white;
-    border-bottom:10px solid white;
+    border-bottom: 10px solid white;
     /*background-color: rgba(255,215,0,0.3);*/
 }
-.content-section-b{
+
+.content-section-b {
     padding: 50px 0;
-        border-top: 10px solid white;
-    border-bottom:10px solid white;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
 }
-.img-content{
+
+.img-content {
     margin-top: 30px;
     border: 1px solid white;
 }
 
+
 /*End of Section-b CSS*/
 
+
 /*Start of CSS for Associated friends and partners*/
+
+
 /* Make it a marquee */
-#marquee-container{
+
+#marquee-container {
     padding-top: 50px;
 }
 
@@ -464,53 +501,53 @@ button:focus{ outline:0 !important; }
     padding-bottom: 20px;
     margin: 0 auto;
     overflow: hidden;
-    white-space: nowrap; 
+    white-space: nowrap;
     animation: marquee 50s linear infinite;
-
-    
-
 }
 
 .marquee img {
     -webkit-transition: all 0.1s ease;
 }
 
-.marquee:hover{
+.marquee:hover {
     animation-play-state: paused;
 }
 
 .marquee img:hover {
-    
     -webkit-transform: scale(1.0);
-    
 }
+
 
 /* Make it move */
+
 @keyframes marquee {
-    0%   { text-indent: 0em }
-    100% { text-indent: -150em }
+    0% {
+        text-indent: 0em
+    }
+    100% {
+        text-indent: -150em
+    }
 }
 
-.img-slider{
+.img-slider {
     padding: 0 20px;
-    
 }
 
-
-
-
-.friends{
+.friends {
     background-color: teal;
 }
 
-.grayscale{
+.grayscale {
     filter: grayscale(100%);
 }
+
+
 /*End of CSS for associated friends and partners*/
 
+
 /*Section c */
- .section-c-btn{
-    
+
+.section-c-btn {
     border-top: 2px solid teal;
     border-bottom: 2px solid teal;
     background-color: transparent;
@@ -525,8 +562,7 @@ button:focus{ outline:0 !important; }
     border-radius: 10px;
 }
 
- .section-d-btn{
-    
+.section-d-btn {
     border-top: 2px solid teal;
     border-bottom: 2px solid teal;
     background-color: transparent;
@@ -539,90 +575,82 @@ button:focus{ outline:0 !important; }
     border-radius: 10px;
 }
 
-
-
-
-.section-c-btn:hover{
-    
+.section-c-btn:hover {
     border-top: 2px solid rgba(0, 128, 128, 0.2);
     border-bottom: 2px solid rgba(0, 128, 128, 0.2);
-    
 }
-.section-d-btn:hover{
-    
+
+.section-d-btn:hover {
     border-top: 2px solid rgba(0, 128, 128, 0.2);
     border-bottom: 2px solid rgba(0, 128, 128, 0.2);
-    
 }
 
-
-
-#show-three{
+#show-three {
     width: 100%;
-    
-
     text-align: center;
 }
 
-#show-one{
+#show-one {
     width: 100%;
-    
-    
     text-align: center;
 }
-#show-two{
-    width: 100%;
-    
 
-    
+#show-two {
+    width: 100%;
     text-align: center;
 }
-.img-c{
+
+.img-c {
     margin-left: 50px;
 }
 
-#section-c{
+#section-c {
     margin-top: 50px;
-
-    
     /*background-color: rgba(0,128,128,0.2);*/
     min-height: 300px;
- 
 }
-.font-size{
+
+.font-size {
     font-size: 15px;
 }
+
+
 /*End of section c*/
 
 
 /*About Us Start*/
-#aboutus-a{
+
+#aboutus-a {
     margin-top: 30px;
 }
-#careers-a{
+
+#careers-a {
     height: 100px;
     width: 100%;
     background-image: url(../img/aboutusbanner.jpg);
     background-size: cover;
-    
 }
 
-a:hover{
+a:hover {
     color: white;
 }
-a:focus{
-    color:white;
+
+a:focus {
+    color: white;
 }
 
-#careers-email:hover{
+#careers-email:hover {
     color: teal;
 }
-#careers-email:focus{
-    color:teal;
+
+#careers-email:focus {
+    color: teal;
 }
+
+
 /*About Us End*/
 
-.cu-pic{
+.cu-pic {
     width: 300px;
     height: 170px;
     border-radius: 25px;
@@ -630,32 +658,32 @@ a:focus{
     transition-duration: 0.5s;
 }
 
-
 @media only screen and (max-width: 500px) {
     .img-button {
         margin-top: 0;
-        margin-right: 100px; 
+        margin-right: 100px;
     }
     .section-a-btn {
         margin-right: 135px;
     }
-    #careers-a{
+    #careers-a {
         background-image: none;
     }
-    .top-banner{
+    .top-banner {
         display: none;
     }
-        .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
         /*height: 91px;*/
         background-color: teal;
     }
-    .cu-pic{
-    width: 300px;
-    height: 170px;
-    border-radius: 25px;
-    margin-left: 6%;
-    transition-duration: 0.5s;
+    .cu-pic {
+        width: 300px;
+        height: 170px;
+        border-radius: 25px;
+        margin-left: 6%;
+        transition-duration: 0.5s;
+    }
 }
-    
-}
-
